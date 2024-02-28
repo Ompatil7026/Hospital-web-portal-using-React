@@ -1,0 +1,33 @@
+/* .hero{
+    width: 200px;
+    height: 30px;
+    object-fit: fill;
+
+} */
+
+/* img {
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+
+.background-container {
+    /* Other styles for your background container */
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    height: 350px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+    color: rgb(5, 242, 5);
+   
+  }
+
+.paragraph{
+    margin-left: 50%;
+}

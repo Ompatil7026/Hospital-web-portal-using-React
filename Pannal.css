@@ -1,0 +1,25 @@
+.Panel{
+    height: 40px;
+    background-color: rgb(239, 250, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Pannel-ops p{
+    display: inline;
+    margin-left: 10%;
+}
+
+.Pannel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.Pannal-all{
+    width: 30%;
+    font-size: 0.85rem;
+    font-size: large;
+    font-weight: bolder;  
+
+}

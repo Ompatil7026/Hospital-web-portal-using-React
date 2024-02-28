@@ -1,0 +1,55 @@
+
+  
+  .slider-container {
+    overflow: hidden;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(247, 255, 235);
+    height: 380px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    flex: 0 0 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    bottom: 0%;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    /* margin-bottom: 2px;
+    margin-top: 0px; */
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  

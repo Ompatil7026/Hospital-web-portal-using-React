@@ -1,0 +1,20 @@
+.Footer{
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color:rgb(190, 244, 226) ;
+    padding-bottom: 0px;
+    font-family: math;
+    margin-top: 2px;
+    
+
+}
+
+.our{
+    width: 100%;
+    position: relative;
+    background-color: rgb(230, 246, 206);
+    margin-top: 10px;
+}
